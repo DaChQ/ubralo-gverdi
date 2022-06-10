@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 21px;
+}
+body{
+    background-color:#e3e3e3;
+}
+nav ul{
+    padding:20px;
+    color:black;
+    display:flex;
+    flex-direction:row;
+    width:500px;
+}
+nav ul li a{
+    color:#000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+nav ul li a:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+nav ul li{
+    margin:8px;
+}
+h2{
+    margin:0 auto;
+    width:330px;
+    font-size:33px;
+}
+h3{
+    margin:0 auto;
+    width:170px;
+    font-size:33px;
+    margin-top:12px;
+}
+h4{
+    margin:0 auto;
+    width:390px;
+    font-size:33px;
+    margin-top:24px;
+}
+.saxe{
+    border-radius:50%;
+    overflow:none;
+    height:500px;
+    width:500px;
+}
+.stampp{
+    width:400px;
+    height:400px;
+}
+.knowledge{
+    height:300px;
+}
+.thing{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    align-items:center;
+}
+.ganatleba{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:1000px;
+    margin:0 auto;
+    align-items:center;
+}
+.zogadi_info{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:1000px;
+    margin:0 auto;
+}
+.descrip{
+    width:400px;
+}
+.why{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+}
+.thingimg{
+    width:350px;
+    height:350px;
+}
+.thinggg{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    align-items: center;
+}
+.sakontaqto{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:40px;
+}
+.img_name{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:500px;
+}
